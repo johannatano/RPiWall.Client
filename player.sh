@@ -1,4 +1,4 @@
 #!/bin/sh
-cd /home/pi/Nelly.com.90s-Party
+cd /home/pi/RPiWall.Client
 pkill -f TCPSClient3.bin
 ./TCPSClient3.bin -s "$1"

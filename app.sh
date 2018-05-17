@@ -16,10 +16,10 @@
 #whoami
 
 
-cd /home/pi/Nelly.com.90s-Party
+cd /home/pi/RPiWall.Client
 sh update_source.sh
 
-cd /home/pi/Nelly.com.90s-Party/server
+cd /home/pi/RPiWall.Client/node
 
 #whoami
 #whoami
