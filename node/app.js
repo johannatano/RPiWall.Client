@@ -16,9 +16,8 @@ function cleanup() {
 
 
 var ID = process.env.ID;
-var SERVER_IP = '172.24.245.55';
-var SERVER_IP = '192.168.1.134';
-var SERVER_IP = '192.168.31.184';
+
+var SERVER_IP = 'rpimaster.local';
 // var SERVER_IP = '172.24.245.51';
 // var socket = require('socket.io-client')('http://192.168.31.70:3000');
 var socket = require('socket.io-client')('http://' + SERVER_IP + ':3000');
