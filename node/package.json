@@ -1,0 +1,16 @@
+{
+  "name": "rpi-tv-wall",
+  "version": "0.0.1",
+  "description": "",
+  "author": {
+    "name": "Johanna Tano"
+  },
+  "dependencies": {
+    "cli-color": "^1.1.0",
+    "dotenv": "^4.0.0",
+    "forever-monitor": "^1.7.1",
+    "ip": "^1.1.5",
+    "socket.io": "^2.0.3",
+    "socket.io-client": "^2.0.3"
+  }
+}
