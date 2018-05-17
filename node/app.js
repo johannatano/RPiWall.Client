@@ -100,6 +100,7 @@ socket.on('connect', function(){
 function ping(){
 	console.log('PING');
 	TILE_DATA.lastSeen = new Date().getTime();
+	console.log(ip.address(), '-----IP', TILE_DATA.lastSeen);
 	TILE_DATA.IP = ip.address();
 
 	socket.emit('update', {type: 'set:tile_data:status', data: [TILE_DATA]});
